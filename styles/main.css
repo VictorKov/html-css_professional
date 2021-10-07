@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+
 body {
     margin: 0 auto;
     padding: 0;
@@ -33,17 +35,52 @@ body {
     margin-right: 41px;
 }
 
-.header-nav-menu-right-item{
+.header-nav-menu-right-item {
     margin-right: 33px;
 }
 
 /*Шапка сайта*/
-.header-top{
+.header-top {
+    margin: 0 auto;
+    padding: 0;
     height: 764px;
     background: #F1E4E6;
 }
 
-.header-top-content{
+.header-top-content {
+    height: 100%;
     background-image: url('../img/removebg-preview.png');
     background-repeat: no-repeat;
+}
+
+.header-top-content-blockquote {
+    position: relative;
+    top: 40%;
+    left: 633px;
+    margin: 0;
+    width: 377px;
+    padding: 0 16px;
+    border-left: 12px solid #F16D7F;
+}
+
+.header-top-content-blockquote-heading {
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    padding: 0;
+    margin: 0;
+}
+
+.header-top-content-blockquote-parag{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 58px;
+    padding: 0;
+    margin: 0;
+}
+
+.header-top-content-blockquote-parag-last_word{
+    color: #F16D7F;
 }
