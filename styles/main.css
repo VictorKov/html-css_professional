@@ -44,5 +44,6 @@ body {
 }
 
 .header-top-content{
-    background-image: url();
+    background-image: url('../img/removebg-preview.png');
+    background-repeat: no-repeat;
 }
