@@ -106,7 +106,7 @@ body {
     font-family: Lato;
 }
 
-.main-top-items {
+.main-items-flex {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
