@@ -25,6 +25,12 @@ body {
     justify-content: space-between;
 }
 
+.header-nav-menu-left{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     padding-left: 230px;
     padding-right: 230px;
@@ -32,10 +38,18 @@ body {
 }
 
 .header-nav-menu-left-item {
+    display: inline;
     margin-right: 41px;
 }
 
+.header-nav-menu-right{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 .header-nav-menu-right-item {
+    display: inline;
     margin-right: 33px;
 }
 
