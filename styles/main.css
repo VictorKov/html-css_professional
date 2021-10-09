@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 body {
+    font-family: Lato;
     margin: 0 auto;
     padding: 0;
     width: 1600px;
@@ -78,7 +79,6 @@ body {
 }
 
 .header-top-content-blockquote-heading {
-    font-family: Lato;
     font-weight: 900;
     font-size: 48px;
     line-height: 58px;
@@ -87,7 +87,6 @@ body {
 }
 
 .header-top-content-blockquote-parag {
-    font-family: Lato;
     font-weight: 700;
     font-size: 32px;
     line-height: 58px;
@@ -102,8 +101,8 @@ body {
 /*Основной контент*/
 
 .main-top {
+    margin-bottom: 96px;
     padding: 65px 0 30px 0;
-    font-family: Lato;
 }
 
 .main-items-flex {
@@ -161,5 +160,24 @@ body {
     font-size: 24px;
     line-height: 28px;
     color: #F16D7F;
+}
+
+.main-bottom-heading {
+    margin: 0 0 6px 0;
+    padding: 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+}
+
+.main-bottom-heading-parag {
+    margin: 0 0 48px 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
 }
 
