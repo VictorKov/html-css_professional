@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300:400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
 body {
     font-family: Lato;
     margin: 0 auto;
     padding: 0;
     width: 1600px;
+    /*width: 100%;*/
 }
 
 .header {
@@ -162,7 +163,13 @@ body {
     color: #F16D7F;
 }
 
-.main-bottom-heading {
+/*Fetured*/
+
+.fetured {
+    margin: 0 0 95px 0;
+}
+
+.fetured-heading {
     margin: 0 0 6px 0;
     padding: 0;
     text-align: center;
@@ -172,8 +179,8 @@ body {
     color: #222222;
 }
 
-.main-bottom-heading-parag {
-    margin: 0 0 48px 0;
+.fetured-heading-parag {
+    margin: 0 0 57px 0;
     text-align: center;
     font-weight: 400;
     font-size: 14px;
@@ -181,13 +188,106 @@ body {
     color: #9F9F9F;
 }
 
-.flex-item:nth-child(5),
-.flex-item:nth-child(6),
-.flex-item:nth-child(7),
-.flex-item:nth-child(8),
-.flex-item:nth-child(9),
-.flex-item:nth-child(10){
+/*Fetured items*/
+
+.fetured-items {
+    margin: 0 0 48px;
+    padding: 0;
 
 }
+
+.fetured-item {
+    width: 360px;
+    height: 581px;
+    box-sizing: border-box;
+    margin: 0 0 30px 0;
+    background: #F8F8F8;
+    text-align: left;
+}
+
+.fetured-item:nth-child(1),
+.fetured-item:nth-child(2),
+.fetured-item:nth-child(4),
+.fetured-item:nth-child(5) {
+    margin-right: 30px;
+}
+
+.fetured-item-img {
+    height: 420px;
+    padding: 9px 0 11px;
+    box-sizing: border-box;
+    text-align: center;
+    background: #F7E4E2;
+}
+
+.fetured-item-text, .fetured-item-name, .fetured-item-price {
+    padding-left: 18px;
+    box-sizing: border-box;
+}
+
+.fetured-item-name {
+    margin: 0;
+    padding-top: 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.fetured-item-text {
+    margin: 0;
+    padding: 12px 0 18px 18px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+}
+
+.fetured-item-price {
+    margin: 0;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+}
+
+.fetured-button {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 14px 0;
+    box-sizing: border-box;
+    width: 211px;
+    height: 47px;
+    border: 1px solid #FF6A6A;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+}
+
+.fetured-button:hover {
+    background: #F16D7F;
+    color: #FFFFFF;
+}
+
+/*Advantage*/
+
+.advantage {
+    background: #222224;
+    height: 341px;
+}
+
+/*Footer*/
+
+.subscribe {
+    height: 448px;
+    background-image: url("../img/bg-footer.jpg");
+}
+
+
 
 
