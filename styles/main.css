@@ -279,6 +279,50 @@ body {
 .advantage {
     background: #222224;
     height: 341px;
+    padding: 0;
+    margin: 0;
+}
+
+.advantage-list {
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+
+.advantage-list-item {
+    margin: 0;
+    padding: 0;
+    width: 31%;
+    list-style: none;
+}
+
+.advantage-list-item:nth-child(2) {
+    margin: 0 30px;
+    padding-top: 9px;
+}
+
+.advantage-list-item:nth-child(3) {
+    padding-top: 5px;
+}
+
+.ali-header {
+    padding: 28px 0 16px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+}
+
+.ali-text {
+    padding: 0 20px;
+    margin: 0;
+    word-wrap: break-word;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
 }
 
 /*Footer*/
