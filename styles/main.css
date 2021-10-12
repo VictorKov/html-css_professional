@@ -2,10 +2,10 @@
 
 body {
     font-family: Lato;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-    width: 1600px;
-    /*width: 100%;*/
+    width: 100%;
+    max-width: 1600px;
 }
 
 .header {
@@ -15,49 +15,57 @@ body {
 
 
 /* Меню сайта*/
-.header-nav {
+.nav {
     height: 75px;
     background: #222222;
 }
 
-.header-nav-menu {
+.nav-menu {
     height: 100%;
     padding-top: 18px;
     display: flex;
     justify-content: space-between;
 }
 
-.header-nav-menu-left {
+
+
+.nav-menu-left {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    padding-left: 230px;
-    padding-right: 230px;
+    max-width: 1140px;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
-.header-nav-menu-left-item {
+.nav-menu-left-item {
     display: inline;
     margin-right: 41px;
 }
 
-.header-nav-menu-right {
+.nav-menu-right {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.header-nav-menu-right-item {
+.nav-menu-right-item {
     display: inline;
     margin-right: 33px;
 }
 
+.menu-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
 /*Шапка сайта*/
 .header-top {
-    margin: 0 auto;
     padding: 0;
     height: 764px;
     background: #F1E4E6;
@@ -67,6 +75,7 @@ body {
     height: 100%;
     background-image: url('../img/removebg-preview.png');
     background-repeat: no-repeat;
+    background-position: left center;
 }
 
 .header-top-content-blockquote {
@@ -103,15 +112,16 @@ body {
 
 .main-top {
     margin-bottom: 96px;
-    padding: 65px 0 30px 0;
+    padding: 65px 0 30px;
 }
 
 .flex {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     text-align: center;
 }
+
 
 .main-top-item:nth-child(1), .main-top-item:nth-child(2), .main-top-item:nth-child(3) {
     width: 360px;
@@ -121,9 +131,9 @@ body {
     padding: 105px 103px;
 }
 
-.main-top-item:nth-child(1), .main-top-item:nth-child(2) {
-    margin-right: 30px;
-}
+/*.main-top-item:nth-child(1), .main-top-item:nth-child(2) {*/
+/*    margin-right: 30px;*/
+/*}*/
 
 .main-top-item:nth-child(1) {
     background-image: url("../img/main-top-item1.jpg");
@@ -166,7 +176,7 @@ body {
 /*Fetured*/
 
 .fetured {
-    margin: 0 0 95px 0;
+    padding-bottom: 95px;
 }
 
 .fetured-heading {
@@ -205,12 +215,6 @@ body {
     text-align: left;
 }
 
-.fetured-item:nth-child(1),
-.fetured-item:nth-child(2),
-.fetured-item:nth-child(4),
-.fetured-item:nth-child(5) {
-    margin-right: 30px;
-}
 
 .fetured-item-img {
     height: 420px;
