@@ -334,8 +334,29 @@ body {
 .subscribe {
     height: 448px;
     background-image: url("../img/bg-footer.jpg");
+    align-items: center;
+    justify-content: space-around;
 }
 
 
+.subscribe-item {
+    height: 100%;
+}
+
+.subscribe-form-input {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 256px;
+    height: 49px;
+}
+
+.subscribe-form-button {
+    margin: 0;
+    padding: 0;;
+    width: 100px;
+    height: 49px;
+}
 
 
