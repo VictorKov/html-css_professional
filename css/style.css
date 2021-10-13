@@ -28,7 +28,6 @@ body {
 }
 
 
-
 .nav-menu-left {
     list-style: none;
     margin: 0;
@@ -65,17 +64,23 @@ body {
 }
 
 /*Шапка сайта*/
+
+.header {
+    background: #F1E4E6;
+    padding: 0;
+    width: 100%;
+}
+
 .header-top {
+    background-image: url('../img/removebg-preview.png');
+    background-repeat: no-repeat;
+    background-position: left;
     padding: 0;
     height: 764px;
-    background: #F1E4E6;
 }
 
 .header-top-content {
     height: 100%;
-    background-image: url('../img/removebg-preview.png');
-    background-repeat: no-repeat;
-    background-position: left center;
 }
 
 .header-top-content-blockquote {
@@ -323,7 +328,7 @@ body {
     margin: 0;
     word-wrap: break-word;
     font-weight: 300;
-    font-size: 13.972px;
+    font-size: 14px;
     line-height: 17px;
     text-align: center;
     color: #FBFBFB;
@@ -338,10 +343,6 @@ body {
     justify-content: space-around;
 }
 
-
-.subscribe-item {
-    height: 100%;
-}
 
 .subscribe-form-input {
     display: block;
