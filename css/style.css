@@ -8,11 +8,6 @@ body {
     max-width: 1600px;
 }
 
-.header {
-    margin: 0;
-    padding: 0;
-}
-
 
 /* Меню сайта*/
 .nav {
@@ -65,13 +60,14 @@ body {
 
 /*Шапка сайта*/
 
-.header {
+.banner {
     background: #F1E4E6;
+    margin: 0;
     padding: 0;
     width: 100%;
 }
 
-.header-top {
+.banner-content {
     width: 100%;
     background-image: url('../img/removebg-preview.png');
     background-repeat: no-repeat;
@@ -219,6 +215,7 @@ body {
 }
 
 .fetured-item {
+    list-style: none;
     width: 360px;
     height: 581px;
     box-sizing: border-box;
@@ -431,3 +428,33 @@ body {
     align-items: center;
 }
 
+.copyright-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
+
+/*Social*/
+
+.social-items {
+    display: flex;
+    justify-content: center;
+}
+
+.social-item {
+    background: #FFF;
+    font-size: 14px;
+    color: #000;
+    margin: 0 7px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 32px;
+    height: 32px;
+}
+
+.social-item:last-child{
+    margin-right: 2px;
+
+}
