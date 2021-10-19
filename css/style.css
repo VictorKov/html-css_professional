@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+body {
+    font-family: Lato;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 1600px;
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Меню сайта*/
+.nav {
+    height: 75px;
+    background: #222222;
+}
+
+.nav-menu {
+    height: 100%;
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-menu-left {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.nav-menu-left-item {
+    display: inline;
+    margin-right: 41px;
+}
+
+.nav-menu-right {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu-right-item {
+    display: inline;
+    margin-right: 33px;
+}
+
+.menu-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*Шапка сайта*/
+
+.header {
+    background: #F1E4E6;
+    padding: 0;
+    width: 100%;
+}
+
+.header-top {
+    background-image: url('../img/removebg-preview.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 0;
+    height: 764px;
+}
+
+.header-top-content {
+    height: 100%;
+}
+
+.header-top-content-blockquote {
+    position: relative;
+    top: 40%;
+    left: 633px;
+    margin: 0;
+    width: 377px;
+    padding: 0 16px;
+    border-left: 12px solid #F16D7F;
+}
+
+.header-top-content-blockquote-heading {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    padding: 0;
+    margin: 0;
+}
+
+.header-top-content-blockquote-parag {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 58px;
+    padding: 0;
+    margin: 0;
+}
+
+.header-top-content-blockquote-parag-last_word {
+    color: #F16D7F;
+}
+
+/*Основной контент*/
+
+.main-top {
+    margin-bottom: 96px;
+    padding: 65px 0 30px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.main-top-item:nth-child(1), .main-top-item:nth-child(2), .main-top-item:nth-child(3) {
+    width: 360px;
+    height: 260px;
+    box-sizing: border-box;
+    margin: 0 0 30px 0;
+    padding: 105px 103px;
+}
+
+/*.main-top-item:nth-child(1), .main-top-item:nth-child(2) {*/
+/*    margin-right: 30px;*/
+/*}*/
+
+.main-top-item:nth-child(1) {
+    background-image: url("../img/main-top-item1.jpg");
+    background-repeat: no-repeat;
+}
+
+.main-top-item:nth-child(2) {
+    background-image: url("../img/main-top-item2.jpg");
+    background-repeat: no-repeat;
+}
+
+.main-top-item:nth-child(3) {
+    background-image: url("../img/main-top-item3.jpg");
+    background-repeat: no-repeat;
+}
+
+.main-top-item:nth-child(4) {
+    width: 100%;
+    height: 180px;
+    background-image: url("../img/main-top-item4.jpg");
+    background-repeat: no-repeat;
+    padding: 65px 0;
+    box-sizing: border-box;
+}
+
+.main-top-parag {
+    margin: 0;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.main-top-header-1 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 28px;
+    color: #F16D7F;
+}
+
+/*Fetured*/
+
+.fetured {
+    padding-bottom: 95px;
+}
+
+.fetured-heading {
+    margin: 0 0 6px 0;
+    padding: 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+}
+
+.fetured-heading-parag {
+    margin: 0 0 57px 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+}
+
+/*Fetured items*/
+
+.fetured-items {
+    margin: 0 0 48px;
+    padding: 0;
+
+}
+
+.fetured-item {
+    width: 360px;
+    height: 581px;
+    box-sizing: border-box;
+    margin: 0 0 30px 0;
+    background: #F8F8F8;
+    text-align: left;
+}
+
+
+.fetured-item-img {
+    height: 420px;
+    padding: 9px 0 11px;
+    box-sizing: border-box;
+    text-align: center;
+    background: #F7E4E2;
+}
+
+.fetured-item-text, .fetured-item-name, .fetured-item-price {
+    padding-left: 18px;
+    box-sizing: border-box;
+}
+
+.fetured-item-name {
+    margin: 0;
+    padding-top: 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.fetured-item-text {
+    margin: 0;
+    padding: 12px 0 18px 18px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+}
+
+.fetured-item-price {
+    margin: 0;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+}
+
+.fetured-button {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 14px 0;
+    box-sizing: border-box;
+    width: 211px;
+    height: 47px;
+    border: 1px solid #FF6A6A;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+}
+
+.fetured-button:hover {
+    background: #F16D7F;
+    color: #FFFFFF;
+}
+
+/*Advantage*/
+
+.advantage {
+    background: #222224;
+    height: 341px;
+    padding: 0;
+    margin: 0;
+}
+
+.advantage-list {
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+
+.advantage-list-item {
+    margin: 0;
+    padding: 0;
+    width: 31%;
+    list-style: none;
+}
+
+.advantage-list-item:nth-child(2) {
+    margin: 0 30px;
+    padding-top: 9px;
+}
+
+.advantage-list-item:nth-child(3) {
+    padding-top: 5px;
+}
+
+.ali-header {
+    padding: 28px 0 16px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+}
+
+.ali-text {
+    padding: 0 20px;
+    margin: 0;
+    word-wrap: break-word;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+}
+
+/*Footer*/
+
+.subscribe {
+    height: 448px;
+    background-image: url("../img/bg-footer.jpg");
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.subscribe-form-input {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 256px;
+    height: 49px;
+}
+
+.subscribe-form-button {
+    margin: 0;
+    padding: 0;;
+    width: 100px;
+    height: 49px;
+}
+
+
