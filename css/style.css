@@ -589,6 +589,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 31px;
+    font-weight: bold;
 }
 
 .carousel-click:last-child {
