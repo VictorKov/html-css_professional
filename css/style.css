@@ -348,8 +348,12 @@ body {
     background-image: url("../img/bg-footer.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.subscribe-items {
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    height: 100%;
 }
 
 .subscribe-item:nth-child(1) {
@@ -707,6 +711,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: left;
+    margin-bottom: 57px;
 }
 
 .form-header {
@@ -719,6 +724,10 @@ body {
 
 .input-txt {
     display: flex;
+    flex-direction: column;
+}
+
+.cart-cell {
     flex-direction: column;
 }
 
@@ -751,3 +760,69 @@ body {
     line-height: 16px;
     color: #222222;
 }
+
+.grand-total {
+    box-sizing: border-box;
+    padding: 39px 43px 42px;
+    height: 214px;
+    width: 360px;
+    background: #F5F3F3;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.sub_total {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A
+}
+
+.grand_total {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+hr {
+    background: rgba(226, 226, 226, 1);
+}
+
+.grand_button {
+    border: none;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 15px 42px;
+    width: 100%;
+    background: #F16D7F;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFF;
+}
+
+/*REGISTRATION*/
+
+.registration_content {
+    box-sizing: border-box;
+    padding: 64px 0 96px;
+}
+
+ .name_user, .login {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .head_part {
+
+ }
+
+ .input_registration {
+
+ }
+
+ .gender {
+     text-align: left;
+ }
