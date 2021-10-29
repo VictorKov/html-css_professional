@@ -33,24 +33,26 @@
     </section>
     <section class="registration_content container flex">
         <form action="#" class="form_registration">
-            <div class="name_user">
-                <h2 class="head_part">Your name</h2>
-                <input class="input_registration" type="text">
-                <input class="input_registration" type="text">
+            <h2 class="head_part">Your name</h2>
+            <div class="username">
+                <input class="input_username" type="text" placeholder="First Name">
+                <input class="input_username" type="text" placeholder="Last Name">
                 <div class="gender">
-                    <input class="" type="radio" name="gender" id="male">
-                    <input type="radio" name="gender" id="female">
+                    <input class="gender_male" type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input class="gender_female" type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
                 </div>
             </div>
+            <h2 class="head_part">Login details</h2>
             <div class="login">
-                <h2 class="head_part">Login details</h2>
-                <input class="input_registration" type="text">
-                <input class="input_registration" type="text">
+                <input class="input_login" type="email" placeholder="Email">
+                <input class="input_login" type="password" placeholder="Password">
                 <p class="reg_txt">Please use 8 or more characters, with at least 1 number and a mixture of uppercase
                     and
                     lowercase letters</p>
             </div>
-            <button type="submit">join now</button>
+            <button class="reg_button" type="submit"><span class="reg_button_txt">join now</span></button>
         </form>
     </section>
 </main>
