@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
-
+@import "fontawesome/all.min.css";
 html {
     width: 100%;
 }
@@ -908,9 +908,46 @@ hr {
 .content-txt {
     margin: 0;
     padding: 0 0 0 128px;
+    text-align: left;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.content_txt_head {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
 }
 
 .content-parag {
-    word-break: break-all;
+    margin: 0;
+    padding: 22px 0 0;
 }
+
+.reg_content_list {
+    padding: 0;
+    list-style: none;
+}
+
+.reg_content_item {
+    padding: 16px 0 0;
+    box-sizing: border-box;
+}
+
+.reg_content_item:first-child {
+    padding: 21px 0 0;
+}
+
+.reg_content_item::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    padding-right: 23px;
+}
+
 
