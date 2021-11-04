@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 @import "fontawesome/all.min.css";
+
 html {
     width: 100%;
 }
@@ -608,12 +609,88 @@ body {
 }
 
 .product-form {
+    margin: 0;
+    padding: 64px 250px;
+    box-sizing: border-box;
+    text-align: center;
     z-index: 2;
     height: 100%;
     background: #ffffff;
     position: relative;
     top: -50px;
-    border: 5px solid red;
+    border: 1px solid #EAEAEA;
+}
+
+.product-form hr {
+    border: 1px solid #EAEAEA;
+    margin: 0;
+}
+
+.product-form-head {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+}
+
+.product-form-head::after {
+    content: "";
+    border: 1px solid #EF5B70;
+    background: #EF5B70;
+    position: relative;
+    margin: 12px auto;
+    display: block;
+    height: 3px;
+    width: 63px;
+}
+
+.text-head {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+}
+
+.form_text {
+    margin: 0 auto;
+    padding: 48px 0 32px;
+    max-width: 555px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5E5E5E;
+}
+
+.price_txt {
+    margin: 0 auto;
+    padding: 0 0 65px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EF5B70;
+}
+
+.prod_form_list {
+    justify-content: space-around;
+    list-style: none;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 65px 0 49px;
+}
+
+.prod_form_button {
+    margin: 0 auto;
+    padding: 14px 56px 14px 72px;
+    border: 1px solid #FF6A6A;
+    background: #FFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
 }
 
 /*CART*/
