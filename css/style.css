@@ -80,10 +80,10 @@ body {
 }
 
 .brand-title {
+    top: 270px;
+    left: 60%;
+    max-width: 377px;
     box-sizing: border-box;
-    padding-top: 290px;
-    padding-left: 40%;
-    height: 100%;
     position: relative;
 }
 
@@ -91,15 +91,16 @@ body {
 .brand-title::before {
     content: "";
     display: block;
+    top: 8px;
+    left: -20px;
     width: 12px;
     height: 93px;
     background-color: #f16d7f;
     position: absolute;
-    top: 297px;
-    left: 53%;
 }
 
 .brand-logo-heading {
+    text-align: left;
     font-weight: 900;
     font-size: 48px;
     line-height: 58px;
@@ -108,6 +109,7 @@ body {
 }
 
 .brand-logo-parag {
+    text-align: left;
     font-weight: 700;
     font-size: 32px;
     line-height: 58px;
@@ -461,6 +463,11 @@ body {
     list-style: none;
     width: 32px;
     height: 32px;
+}
+
+.social-item:hover {
+    background: #F16D7F;
+    color: #FFF;
 }
 
 .social-item:last-child {
