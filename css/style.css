@@ -91,7 +91,7 @@ body {
 .brand-title::before {
     content: "";
     display: block;
-    top: 8px;
+    top: 9px;
     left: -20px;
     width: 12px;
     height: 93px;
