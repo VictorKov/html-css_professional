@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My magazine</title>
+    <title>Product</title>
     <link rel="stylesheet" href="css/normolize.css">
-    <link rel="stylesheet" href="css/fontawesome/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -25,41 +26,46 @@
     </div>
 </header>
 <main>
-    <section class="banner">
-        <div class="banner-content container">
-            <div class="brand-title">
-                <h2 class="brand-logo-heading">THE BRAND</h2>
-                <p class="brand-logo-parag">OF LUXERIOUS <span class="brand-logo-parag-last_word">FASHION</span></p>
-            </div>
+    <section class="catalog-banner">
+        <div class="catalog-banner-content container flex">
+            <h2 class="catalog-banner-txt">new arrivals</h2>
+            <nav class="catalog-nav">
+                <ul class="catalog-nav-list">
+                    <li class="catalog-nav-item"><a href="#" class="catalog-nav-link">home</a></li>
+                    <li class="catalog-nav-item"><a href="#" class="catalog-nav-link">men</a></li>
+                    <li class="catalog-nav-item"><a href="#" class="catalog-nav-link">new arrivals</a></li>
+                </ul>
+            </nav>
         </div>
     </section>
-    <section class="main-top">
-        <div class="flex container">
-            <div class="main-top-item">
-                <p class="main-top-parag">30% OFF</p>
-                <h2 class="main-top-header-1">FOR WOMEN</h2>
-            </div>
-            <div class="main-top-item">
-                <p class="main-top-parag">HOT DEAL</p>
-                <h2 class="main-top-header-1">FOR MEN</h2>
-            </div>
-            <div class="main-top-item">
-                <p class="main-top-parag">NEW ARRIVALS</p>
-                <h2 class="main-top-header-1">FOR KIDS</h2>
-            </div>
-            <div class="main-top-item">
-                <p class="main-top-parag">LUXIROUS & TRENDY</p>
-                <h2 class="main-top-header-1">ACCESORIES</h2>
-            </div>
+    <section class="carousel flex">
+        <button class="carousel-click"><</button>
+        <img src="img/product.png" alt="фото" class="carousel-img" width="597">
+        <button class="carousel-click">></button>
         </div>
+    </section>
+    <section class="product-description container">
+        <form class="product-form" action="#">
+            <h2 class="product-form-head">Women collection</h2>
+            <h3 class="text-head">Moschino cheap and chic</h3>
+            <p class="form_text">Compellingly actualize fully researched processes before proactive outsourcing.
+                Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize
+                parallel core competencies rather than exceptional portals. </p>
+            <h3 class="price_txt">$561</h3>
+            <hr>
+            <ul class="prod_form_list flex">
+                <li class="prod_form_item">choose color</li>
+                <li class="prod_form_item">choose size</li>
+                <li class="prod_form_item">quantity</li>
+            </ul>
+            <button class="prod_form_button flex" type="submit">Add to cart</button>
+        </form>
     </section>
     <section class="fetured container">
-        <h2 class="fetured-heading">Fetured Items</h2>
-        <p class="fetured-heading-parag">Shop for items based on what we featured in this week</p>
         <ul class="fetured-items container flex">
             <li class="fetured-item">
                 <article>
-                    <img src="img/fetured-item-img1.png" alt="фото товара">
+                    <img src="img/catalo-foto4.png" alt="фото товара">
                     <h2 class="fetured-item-name">Ellery x m'o capsule</h2>
                     <p class="fetured-item-text">Known for her sculptural takes on traditional tailoring, Australian
                         arbiter
@@ -70,38 +76,8 @@
             <li class="fetured-item">
                 <article>
                     <div class="fetured-item-img">
-                        <img src="img/fetured-item-img2.png" alt="фото товара">
+                        <img src="img/fetured-item-img3.png" alt="фото товара">
                     </div>
-                    <h2 class="fetured-item-name">Ellery x m'o capsule</h2>
-                    <p class="fetured-item-text">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter
-                        of cool Kym Ellery teams up with Moda Operandi. </p>
-                    <h2 class="fetured-item-price">$52.00</h2>
-                </article>
-            </li>
-            <li class="fetured-item">
-                <article>
-                    <img src="img/fetured-item-img3.png" alt="фото товара">
-                    <h2 class="fetured-item-name">Ellery x m'o capsule</h2>
-                    <p class="fetured-item-text">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter
-                        of cool Kym Ellery teams up with Moda Operandi. </p>
-                    <h2 class="fetured-item-price">$52.00</h2>
-                </article>
-            </li>
-            <li class="fetured-item">
-                <article>
-                    <img src="img/fetured-item-img4.png" alt="фото товара">
-                    <h2 class="fetured-item-name">Ellery x m'o capsule</h2>
-                    <p class="fetured-item-text">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter
-                        of cool Kym Ellery teams up with Moda Operandi. </p>
-                    <h2 class="fetured-item-price">$52.00</h2>
-                </article>
-            </li>
-            <li class="fetured-item">
-                <article>
-                    <img src="img/fetured-item-img5.png" alt="фото товара" class="img">
                     <h2 class="fetured-item-name">Ellery x m'o capsule</h2>
                     <p class="fetured-item-text">Known for her sculptural takes on traditional tailoring, Australian
                         arbiter
@@ -120,7 +96,6 @@
                 </article>
             </li>
         </ul>
-        <a href="#" class="fetured-button">Browse All Product</a>
     </section>
     <section class="advantage">
         <ul class="advantage-list flex container">
