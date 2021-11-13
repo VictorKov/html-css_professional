@@ -62,32 +62,42 @@
                 <button class="cart-button">continue shopping</button>
             </li>
         </ul>
-        <form class="cart-form" action="#">
-            <h2 class="form-header">shipping adress</h2>
-            <div class="input-txt">
-                <input class="cart-form-input" type="text" name="Adress" placeholder="Bangladesh">
-                <input class="cart-form-input" type="text" name="Adress" placeholder="State">
-                <input class="cart-form-input" type="text" name="Adress" placeholder="Postcode / Zip">
+        <div class="cart-cell">
+            <form class="cart-form" action="#">
+                <h2 class="form-header">shipping adress</h2>
+                <div class="input-txt">
+                    <input class="cart-form-input" type="text" name="Adress" placeholder="Bangladesh">
+                    <input class="cart-form-input" type="text" name="Adress" placeholder="State">
+                    <input class="cart-form-input" type="text" name="Adress" placeholder="Postcode / Zip">
+                </div>
+                <button class="cart-button form-button" type="submit">get&nbsp&nbspa&nbsp&nbspquote</button>
+            </form>
+            <div class="grand-total">
+                <h3 class="sub_total">sub total</h3>
+                <h2 class="grand_total">grand total</h2>
+                <hr>
+                <button class="grand_button" type="submit">proceed to checkout</button>
             </div>
-            <button class="cart-button form-button" type="submit">get&nbsp&nbspa&nbsp&nbspquote</button>
-        </form>
+        </div>
     </section>
 </main>
 <footer class="footer">
-    <section class="subscribe flex">
-        <div class="subscribe-item ">
-            <img src="img/subscribe.png" alt="">
-            <p class="subscribe-txt">&quot;Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus
-                condimentum&quot;</p>
+    <section class="subscribe">
+        <div class="subscribe-items container flex">
+            <div class="subscribe-item ">
+                <img src="img/subscribe.png" alt="">
+                <p class="subscribe-txt">&quot;Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus
+                    condimentum&quot;</p>
+            </div>
+            <form class="subscribe-item subscribe-form" action="">
+                <header class="header-form">
+                    <h2 class="header-form-h2">subscribe</h2>
+                    <h2 class="header-form-h2">for your newletter and promotion</h2>
+                    <input class="subscribe-form-input" type="button" value="Enter Your Email">
+                    <button class="subscribe-form-button" type="submit">Subscribe</button>
+                </header>
+            </form>
         </div>
-        <form class="subscribe-item subscribe-form" action="">
-            <header class="header-form">
-                <h2 class="header-form-h2">subscribe</h2>
-                <h2 class="header-form-h2">for your newletter and promotion</h2>
-                <input class="subscribe-form-input" type="button" value="Enter Your Email">
-                <button class="subscribe-form-button" type="submit">Subscribe</button>
-            </header>
-        </form>
     </section>
     <section class="copyright">
         <div class="flex container copyright-items">

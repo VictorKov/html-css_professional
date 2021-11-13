@@ -348,8 +348,12 @@ body {
     background-image: url("../img/bg-footer.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.subscribe-items {
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    height: 100%;
 }
 
 .subscribe-item:nth-child(1) {
@@ -635,7 +639,7 @@ body {
     height: 306px;
 }
 
-.cart-item:last-child{
+.cart-item:last-child {
     margin: 0;
 }
 
@@ -707,6 +711,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: left;
+    margin-bottom: 57px;
 }
 
 .form-header {
@@ -719,6 +724,10 @@ body {
 
 .input-txt {
     display: flex;
+    flex-direction: column;
+}
+
+.cart-cell {
     flex-direction: column;
 }
 
@@ -751,3 +760,141 @@ body {
     line-height: 16px;
     color: #222222;
 }
+
+.grand-total {
+    box-sizing: border-box;
+    padding: 39px 43px 42px;
+    height: 214px;
+    width: 360px;
+    background: #F5F3F3;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.sub_total {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A
+}
+
+.grand_total {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+hr {
+    background: rgba(226, 226, 226, 1);
+}
+
+.grand_button {
+    border: none;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 15px 42px;
+    width: 100%;
+    background: #F16D7F;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFF;
+}
+
+/*REGISTRATION*/
+
+.form_registration {
+    margin: 0;
+    padding: 0;
+    max-width: 360px;
+    text-align: left;
+}
+
+.registration_content {
+    box-sizing: border-box;
+    padding: 64px 0 96px;
+}
+
+.username, .login {
+    display: flex;
+    flex-direction: column;
+}
+
+.head_part {
+    margin: 0;
+    text-align: left;
+    padding-bottom: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.input_username, .input_login {
+    width: 360px;
+    height: 45px;
+    text-align: left;
+    border: 1px solid #A4A4A4;
+}
+
+.gender {
+    text-align: left;
+    margin: 33px 0 31px;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+}
+
+.gender_male, .gender_female {
+    width: 17px;
+    height: 17px;
+}
+
+.reg_txt {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+}
+
+.reg_button {
+    padding: 16px 29px;
+    box-sizing: border-box;
+    width: 167px;
+    height: 50px;
+    text-transform: uppercase;
+    border: none;
+    color: #FFF;
+    background: #F16D7F;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.gender label {
+    margin: 0 20px 0 10px;
+    box-sizing: border-box;
+    position: relative;
+    top: -4px;
+}
+
+.reg_button_txt::after {
+    content: "\2192";
+    margin-left: 10px;
+}
+
+.input_username:first-child, .input_login:first-child {
+    margin-bottom: 20px;
+}
+
+.input_username::placeholder, .input_login::placeholder {
+    padding: 12px 0 15px 17px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+}
+
