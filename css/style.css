@@ -537,6 +537,13 @@ body {
     color: #636363;
 }
 
+
+.catalog-nav-item::after {
+    content: "/";
+    color: #636363;
+    padding: 0 3px;
+}
+
 .catalog-nav-item:last-child .catalog-nav-link {
     font-weight: bold;
     font-size: 14px;
@@ -550,29 +557,43 @@ body {
     padding: 0 3px;
 }
 
-
-.catalog-nav-item:nth-child(2)::before,
-.catalog-nav-item:nth-child(2)::after {
-    content: "/";
+.catalog-nav-item:last-child::after {
+    content: "";
     color: #636363;
     padding: 0 3px;
 }
 
 /*catalog fetures items*/
 
-.catalog-button {
-    display: block;
+.catalog-list {
+    margin: 0 auto;
+    padding: 12px 14px;
+    max-width: 282px;
     text-align: center;
-    text-decoration: none;
+    border: 1px solid #EBEBEB;
 }
 
-.catalog-button:before {
-    content: "<";
+.catalog-list-item {
+    list-style: none;
+}
+
+.catalog-list-link {
+    text-decoration: none;
+    color: #EBEBEB;
+
+}
+
+.catalog-list:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f104";
     padding: 0 3px;
 }
 
-.catalog-button:after {
-    content: ">";
+.catalog-list:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
     padding: 0 3px;
 }
 
