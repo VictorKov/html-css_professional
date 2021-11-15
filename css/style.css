@@ -738,6 +738,7 @@ body {
 
 .cart-item {
     box-shadow: 23px 23px 20px #E5E5E5;
+    position: relative;
     margin: 0 0 40px;
     list-style: none;
     display: flex;
@@ -782,6 +783,32 @@ body {
     font-size: 22px;
     line-height: 26px;
     color: #575757;
+}
+
+.close {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    width: 15px;
+    height: 15px;
+    opacity: 0.3;
+}
+.close:hover {
+    opacity: 1;
+}
+.close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 20px;
+    width: 2px;
+    background-color: #333;
+}
+.close:before {
+    transform: rotate(45deg);
+}
+.close:after {
+    transform: rotate(-45deg);
 }
 
 
