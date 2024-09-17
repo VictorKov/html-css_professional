@@ -80,10 +80,10 @@ body {
 }
 
 .brand-title {
+    top: 270px;
+    left: 60%;
+    max-width: 377px;
     box-sizing: border-box;
-    padding-top: 290px;
-    padding-left: 40%;
-    height: 100%;
     position: relative;
 }
 
@@ -91,15 +91,16 @@ body {
 .brand-title::before {
     content: "";
     display: block;
+    top: 9px;
+    left: -20px;
     width: 12px;
     height: 93px;
     background-color: #f16d7f;
     position: absolute;
-    top: 297px;
-    left: 53%;
 }
 
 .brand-logo-heading {
+    text-align: left;
     font-weight: 900;
     font-size: 48px;
     line-height: 58px;
@@ -108,6 +109,7 @@ body {
 }
 
 .brand-logo-parag {
+    text-align: left;
     font-weight: 700;
     font-size: 32px;
     line-height: 58px;
@@ -463,6 +465,11 @@ body {
     height: 32px;
 }
 
+.social-item:hover {
+    background: #F16D7F;
+    color: #FFF;
+}
+
 .social-item:last-child {
     margin-right: 2px;
 
@@ -530,6 +537,13 @@ body {
     color: #636363;
 }
 
+
+.catalog-nav-item::after {
+    content: "/";
+    color: #636363;
+    padding: 0 3px;
+}
+
 .catalog-nav-item:last-child .catalog-nav-link {
     font-weight: bold;
     font-size: 14px;
@@ -543,29 +557,43 @@ body {
     padding: 0 3px;
 }
 
-
-.catalog-nav-item:nth-child(2)::before,
-.catalog-nav-item:nth-child(2)::after {
-    content: "/";
+.catalog-nav-item:last-child::after {
+    content: "";
     color: #636363;
     padding: 0 3px;
 }
 
 /*catalog fetures items*/
 
-.catalog-button {
-    display: block;
+.catalog-list {
+    margin: 0 auto;
+    padding: 12px 14px;
+    max-width: 282px;
     text-align: center;
-    text-decoration: none;
+    border: 1px solid #EBEBEB;
 }
 
-.catalog-button:before {
-    content: "<";
+.catalog-list-item {
+    list-style: none;
+}
+
+.catalog-list-link {
+    text-decoration: none;
+    color: #EBEBEB;
+
+}
+
+.catalog-list:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f104";
     padding: 0 3px;
 }
 
-.catalog-button:after {
-    content: ">";
+.catalog-list:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
     padding: 0 3px;
 }
 
@@ -710,6 +738,7 @@ body {
 
 .cart-item {
     box-shadow: 23px 23px 20px #E5E5E5;
+    position: relative;
     margin: 0 0 40px;
     list-style: none;
     display: flex;
@@ -754,6 +783,32 @@ body {
     font-size: 22px;
     line-height: 26px;
     color: #575757;
+}
+
+.close {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    width: 15px;
+    height: 15px;
+    opacity: 0.3;
+}
+.close:hover {
+    opacity: 1;
+}
+.close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 20px;
+    width: 2px;
+    background-color: #333;
+}
+.close:before {
+    transform: rotate(45deg);
+}
+.close:after {
+    transform: rotate(-45deg);
 }
 
 
